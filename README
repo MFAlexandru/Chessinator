@@ -1,0 +1,175 @@
+@Copyright Baciu Alexandru, Traistaru Andreea, Margarit Alexandru,
+Rosca Cvinitlian, 322CA 2021
+
+Proiect PA:  Bot for Three-Check Chess
+
+#Etapa 1:
+
+- Utilizare:
+	-(Eventual make clean la inceput pentru a sterge orice executabil)
+	- make build: compile
+	- make run: ruleaza programul si asteapta input
+	- xboard -fcp "make run": incepe jocul de sah
+
+- Ce este facut:
+	Avem in acest moment reprezentarea interna, in memorie a tablei de sah cu
+	piesele sale. Fiecare piesa poate muta dupa regulile normale ale sahului,
+	Nu am inclus momentan regulile En Passant sau Rocada. Se tine cont si de
+	regula de "sah" (daca regele este atacat trebuie sa nu mai fie, altfel
+	jocul se termina), dar nu si de aditia Three-Check (la 3 sahuri asupra unui
+	rege in decursul jocului, acesta se incheie).
+
+	Bot-ul genereaza toate mutarile posibile valide si alege una la intamplare.
+
+- Detalii despre logica implementarii:
+	Am creeat o clasa GameBoard care este responsabila de atributele aferente
+	tablei de sah precum si a desfasurarii efective a jocului. Astfel avem:
+		- Tabla ca fiind un vector de obiecte de tip Piece (detaliat mai jos).
+		Vectorul retine pointeri catre obiecte, acolo unde este un camp gol se
+		afla nullptr.
+		- Un flag force pentru a stii daca doar inregistram mutarile sau punem
+		bot-ul la treaba.
+		- Un flag color pentru a stii ce jucator este la mutat.
+		- Un camp inca nefolosit pentru a stii ce pion a fost mutat la mutarea
+		anterioara (sau daca a fost vreunul) ce va fi folosit etapa urmatoare
+		pentur regula En Passant.
+		- Pozitiile regilor pentru a verifica mai repede/usor daca vreunul este
+		in sah (caz in care logica mutarilor si a jocului in general se schimba
+		radical).
+		- Constructor ce initlaizeaza tabla cu nullptr.
+		- Metoda newGame care dealoca memoria folosita pentru piese si
+		aloca piese noi in pozitiile corespunzatoare.
+		- Metoda botMove care "calculeaza" o mutarea urmatoare, o simuleaza pe
+		tabla si o afiseaza.
+		- Metoda playerMove care primeste o mutare de la stdin, o simuleaza si
+		in functie de force apeleaza botMove.
+		- Metoda isAttacked folosita pentru a determina daca un anumit camp
+		este atacat de orice piesa de culoare data ca parametru, utila pentru a
+		verifica daca un rege este in sah, sau pe viitor daca campurile prin
+		care ar trebui sa treaca pentru Rocada sunt atacate.
+		- Metoda validate care verifica ca un string dat ca parametru este o
+		mutare textual valida (exemplu: "a2c6" poate fi, "9$a*m" nu poate fi)
+		- Metoda moveStoI converteste o mutare string in pozitiile int unde si
+		de unde trebuie mutata piesa.
+		- Metoda posItoS inversul lui moveStoI.
+
+	Asa cum am zis, piesele au clasa lor, Piece, care are:
+		- Pozitia piesei pe tabla.
+		- Culoarea piesei.
+		- Tipul piesei, folosit pentru a verifica daca este pion pentru a fi
+		promovat sau rege pentru a stii daca este atacat.
+		- Un camp care determina daca piesa a fost mutata vreodata in acel joc,
+		util pentru prima mutare de 2 casute a pionilor, precum si rocada.
+		- Constructor pentru pozitie, culoare, id.
+		- O metoda legalMoves care caluleaza in functie de tipul piesei toate
+		mutarile posibile legale (si in afara regulii de sah) ale sale.
+		- Metoda isCheckAfterMove care verifica daca in urma unei mutari
+		presupuse legala regele de aceeasi culoare ramane in sah.
+		- Metoda moveTo care simuleaza efectiv mutarea in reprezentarea interna
+		a tablei de sah.
+
+	Ficare piesa mosteneste aceasta clasa abstracta piesa, si implementeaza
+	metoda abstracta legalMoves, care depinde de la piesa la piesa. Aceste
+	mutari sunt generate si validate relativ ineficient si cu mult cod duplicat
+	lucru care va fi imbunatatit pe viitor!
+
+	A fost nevoie de un flag in plus deoarece in legalMoves se verifica daca
+	regele ramane in sah, unde este nevoie de generarea leaglMoves a altor
+	piese... Totusi pentru a verifica daca regle alb este in sah de exmeplu, nu
+	este nevoie sa verificam ca in urma "mutarii" unei piese care ataca regele
+	alb, regele negru ar ramane in sah deoarece piesa aceea ce ar trebui mutata
+	nu poate muta deoarece nu este de la inceput o pozitie valida cu regele alb
+	in sah. de accea am inclus un flag care sa nu verifice aceast "sah prin
+	descoperire" odata ce celalalt rege este deja in sah.
+
+	In main citim intr-un while(1) un string si verificam daca este "new"
+	"force" "go" "quit" "resign" "protover", orice altceva este considerat o
+	mutare si este validata, daca nu respecta formatul este o comanda ignorata
+	pentru simplitate.
+
+- Detalii despre algoritmii / ideile folosite
+	Pentru aceasta etapa am considerat ca nu este nevoie de un cod eficient sau
+	rapid. Ne-am axat strict pe a avea regulile bine definite si respectate de
+	bot precum si interfatarea cu xboard. Bineinteles ca vom schimba lucruri la
+	implementare si mai ales la structurile de date folosite in etapele
+	viitoare pentru a castiga timp.
+
+	Din motivele de mai sus exista mult cod duplicat la generarea de mutari
+	valide a pieselor, vom modulariza in Etapa 2.
+
+- Distributia sarcinilor:
+	- Rosca Cvinitlian & Traistaru Andreea:
+		- Interfatarea cu xboard
+		- Implementarea inregistrarii mutarilor jucatorului, precum si mutarile
+		bot-ului
+		- Functiile de validare a string-ului mutarilor, precum si conversia
+		int-string si string-int
+
+	- Baciu Alexandru & Margarit Alexandru:
+		- Clasa Piece precum si mutarile pieselor
+		- Functiile de validare ale mutarilor, verificare a regulii de sah
+
+- Mentiuni suplimentare:
+	Se observa ca am implementat mai mult decat s-a cerut, stiind totusi ca la
+	final va trebuie sa avem regulile pentru toate piesele, nu doar pioni, asa
+	ca fiind prinsi de flow le-am implementat de pe acum. Speram sa nu fie o
+	problema daca botul va muta orice piesa in locul doar al pionilor.
+	Functionalitatile cerute sunt incluse complet in cele curente!
+
+	Am impartit in 2 echipe task-urile deoarece invidiual ar fi fost posibil
+	prea greu de impartit si merge-uit.
+
+
+#Etapa 2:
+
+- Aditii Etapa 1:
+	Avand deja mare parte terminat din Etapa 1, ne-am folosit de flagurile deja
+	creeate: everMoved din pieces si lastPawnDoubleMove din gameBoard.
+	Daca lastPawnDoubleMove este setat atunci verificam, este posibil sa existe
+	optiunea de En Passant, iar la finalul oricarei mutari imediat urmatoare il
+	resetam. EverMoved verifica daca o piesa a fost mutata, lucru util pentru
+	rocada utilizand si functia de isAttacked pentru a valida celelalte reguli
+	pentru rocada. Deoarece este obligatoriu de facut rocada, in cadrul
+	geneararii tuturor mutarilor posibile am verificat daca vreuna este a
+	regelui de 2 casute lateral si o efectuam.
+
+	Ultima provocare a fost sa promovam pionul in orice piesa (cal, nebun,
+	turn, regina) motiv pentru care am modificat putin functia de mutat ca
+	sa primeasca si un indicator pentru piesa in care promovam, care este si
+	afisat atunci cand se realizeaza o promovare, ex: a7a8b
+
+- Distributia sarcinilor:
+	- Baciu Alexandru & Margarit Alexandru:
+		- En Passant si Rocada
+
+	- Rosca Cvinitlian & Traistaru Andreea:
+		- Promovarea in mai multe piese
+		* Special award: descoperirea unui bug subtil mentinat mai jos
+
+- Mentiuni suplimentare:
+	In functia isAttacked se generau mutarile legale ale fiecarei piese, iar in
+	cazul pionului, acesta putea muta pe diagonala (captura) doar daca avea o
+	piesa inamica acolo. Casuta de pe diagonala totusi este atacata de acesta
+	chiar daca inca nu poate muta acolo, lucru care facea regele negru sa
+	considere ca pionul alb nu ii ataca un camp prin care acesta trece in
+	cadrul rocadei, ca mai jos: (k - rege negru, r - tura neagra, p - pion alb)
+
+				r - - - k - - r                            - - k r - - - r
+				- - - - p - - -      se transforma in:     - - - - p - - -   
+				- - - - - - - -                            - - - - - - - -
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+

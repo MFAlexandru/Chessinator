@@ -1,0 +1,79 @@
+locale = LC_CTYPE=en_US.UTF-8;LC_NUMERIC=ro_RO.UTF-8;LC_TIME=ro_RO.UTF-8;LC_COLLATE=C;LC_MONETARY=ro_RO.UTF-8;LC_MESSAGES=en_US.UTF-8;LC_PAPER=ro_RO.UTF-8;LC_NAME=ro_RO.UTF-8;LC_ADDRESS=ro_RO.UTF-8;LC_TELEPHONE=ro_RO.UTF-8;LC_MEASUREMENT=ro_RO.UTF-8;LC_IDENTIFICATION=ro_RO.UTF-8
+recognized '3check' (-1) as variant 3check
+recognized '3check' (-1) as variant 3check
+recognized '3check' (-1) as variant 3check
+shuffleOpenings = 0
+shuffleOpenings = 0
+Version: xboard 4.9.1 + make ()
+Reset(1, 0) from gameMode 0
+recognized '3check' (-1) as variant 3check
+GameEnds(0, (null), 2)
+shuffleOpenings = 0
+StartChildProcess (dir=".") make run
+154 >first : xboard
+protover 2
+157 <first : g++ -Wall -std=c++17 -Wno-narrowing -O3 -funroll-loops src/* -o ./bin/CHESSNOT -I ./include
+1565 <first : src/pieces.cpp: In member function ‘Piece* Piece::moveTo(int, char, GameBoard&)’:
+1565 <first : src/pieces.cpp:124:24: warning: unused variable ‘aux’ [-Wunused-variable]
+1565 <first :   124 |                 Piece* aux = board[newPos];
+1565 <first :       |                        ^~~
+1565 <first : src/pieces.cpp:149:24: warning: unused variable ‘aux’ [-Wunused-variable]
+1565 <first :   149 |                 Piece* aux = board[newPos];
+1565 <first :       |                        ^~~
+1680 <first : src/pieces.cpp: In member function ‘bool Piece::isCheckAfterMove(const GameBoard&, int) const’:
+1680 <first : src/pieces.cpp:49:53: warning: ‘specialAux’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+1680 <first :    49 |                 board[gameBoard.lastPawnDoubleMove] = specialAux;
+2248 <first : ./bin/CHESSNOT
+2249 <first : feature myname="ChessQABM"
+2249 >first : accepted myname
+2249 <first : feature sigint=0 sigterm=0 san=0
+2249 >first : accepted sigint
+2249 >first : accepted sigterm
+2249 >first : accepted san
+10156 >first : new
+random
+10156 >first : variant 3check
+10156 >first : level 40 5 0
+10156 >first : post
+10156 >first : hard
+nps: w=-1, b=-1
+nps: w=-1, b=-1
+11906 >first : time 30000
+11906 >first : otim 30000
+book hit = (NULL)
+11906 >first : d2d4
+12659 <first : move e7e6
+18647 >first : time 29924
+18647 >first : otim 29401
+book hit = (NULL)
+18647 >first : c2c3
+19572 <first : move d8h4
+22822 >first : time 29832
+22822 >first : otim 29076
+book hit = (NULL)
+22822 >first : g2g3
+25109 <first : move h4e4
+30225 >first : time 29603
+30225 >first : otim 28564
+book hit = (NULL)
+30225 >first : c1e3
+32335 <first : move e4g4
+40143 >first : time 29392
+40143 >first : otim 27783
+book hit = (NULL)
+40143 >first : f2f3
+42258 <first : move g4g3
+52843 >first : time 29181
+52843 >first : otim 26725
+book hit = (NULL)
+52843 >first : h2g3
+55497 <first : move b8c6
+68922 >first : time 28915
+68922 >first : otim 25382
+book hit = (NULL)
+68922 >first : e3f4
+74403 <first : move c6b4
+GameEnds(29, xboard exit, 2)
+76936 >first : result * {xboard exit}
+76936 >first : force
+76936 >first : quit

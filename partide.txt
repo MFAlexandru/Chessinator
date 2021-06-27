@@ -1,0 +1,667 @@
+[Event "Computer Chess Game"]
+[Site "uso"]
+[Date "2021.05.26"]
+[Round "1"]
+[White "ChessQABM"]
+[Black "pulsar2009-9b-64"]
+[Result "1-0"]
+[TimeControl "300+2"]
+[Variant "3check"]
+[Annotator "1... +0,10"]
+
+1. e3 e5 {+0,10/3 0,1} 2. Qh5 Nc6 {+0,34/3 0,1} 3. Qxf7+ Kxf7 {+2,80/3 0,1}
+4. Bc4+ Ke7 {+3,14/3 0,1} 5. Nc3 Ke8 {-150,00/3 0,1} 6. Bf7+
+{Xboard adjudication: 3rd check} 1-0
+
+[Event "Computer Chess Game"]
+[Site "uso"]
+[Date "2021.05.26"]
+[Round "1"]
+[White "ChessQABM"]
+[Black "pulsar2009-9b-64"]
+[Result "0-1"]
+[TimeControl "300+2"]
+[Variant "3check"]
+[Annotator "1... +0,09"]
+
+1. e3 Nc6 {+0,09/8 12} 2. Qg4 d5 {+0,32/8 12} 3. Qd7+ Bxd7 {+8,35/9 14} 4.
+Bb5 e5 {+8,35/8 14} 5. Nc3 Nf6 {+8,36/8 12} 6. Nf3 Bd6 {+8,40/8 10} 7. h3
+O-O {+8,69/8 14} 8. a4 Nb4 {+9,69/8 11} 9. O-O Nxc2 {+10,96/7 11} 10. Bd3
+Nxa1 {+12,58/7 10} 11. Bxh7+ Nxh7 {+12,52/8 11} 12. Nxd5 Kh8 {+12,62/7 11}
+13. Ne1 Nb3 {+14,33/7 9} 14. Nd3 Ng5 {+15,23/7 9} 15. Kh1 Nxh3 {+18,27/7 9}
+16. gxh3 Qh4 {+149,96/6 8} 17. Re1 Qxh3+ {+149,98/6 7} 18. Kg1 Qg4+
+{+149,99/6 8} 19. Kf1 Qe2+ {+149,99/6 7}
+{Xboard adjudication: 3rd check} 0-1
+
+[Event "Computer Chess Game"]
+[Site "uso"]
+[Date "2021.05.26"]
+[Round "1"]
+[White "ChessQABM"]
+[Black "pulsar2009-9b-64"]
+[Result "1-0"]
+[TimeControl "300+2"]
+[Variant "3check"]
+[Annotator "1... -0,14"]
+
+1. e3 e5 {-0,14/4 0,1} 2. Qh5 Nc6 {+0,34/4 0,1} 3. Qxf7+ Kxf7 {+3,14/4 0,1}
+4. Bc4+ Ke7 {-149,99/4 0,1} 5. Nc3 Ke8 {-150,00/3 0,1} 6. Bf7+
+{Xboard adjudication: 3rd check} 1-0
+
+[Event "Computer Chess Game"]
+[Site "uso"]
+[Date "2021.05.26"]
+[Round "1"]
+[White "ChessQABM"]
+[Black "pulsar2009-9b-64"]
+[Result "1-0"]
+[TimeControl "300+2"]
+[Variant "3check"]
+[Annotator "1... -0,14"]
+
+1. e3 e5 {-0,14/4 0,1} 2. Qh5 Nc6 {+0,34/4 0,1} 3. Qxf7+ Kxf7 {+3,14/4 0,1}
+4. Bc4+ Ke7 {-149,99/4 0,1} 5. Nc3 Ke8 {-150,00/3 0,1} 6. Bf7+
+{Xboard adjudication: 3rd check} 1-0
+
+[Event "Computer Chess Game"]
+[Site "uso"]
+[Date "2021.05.26"]
+[Round "2"]
+[White "pulsar2009-9b-64"]
+[Black "ChessQABM"]
+[Result "1-0"]
+[TimeControl "300+2"]
+[Variant "3check"]
+[Annotator "1. +0,02"]
+
+1. c3 {+0,02/4} e6 2. d4 {-0,15/4 0,1} Qh4 3. Nf3 {+0,35/4 0,1} Qxf2+ 4.
+Kxf2 {+6,36/4 0,1} Be7 5. Kg1 {+6,50/4 0,1} b6 6. Bf4 {+6,80/4 0,1} Bb7 7.
+Bxc7 {+7,30/4 0,1} Bf6 8. e3 {+7,66/4 0,1} Ne7 9. Bb5 {+7,58/4 0,1} O-O 10.
+Bxb8 {+8,17/4 0,1} Nf5 11. Bf4 {+10,48/4 0,1} Rfc8 12. Bxd7 {+11,34/4 0,1}
+Rd8 13. Bb5 {+11,32/4 0,1} Rac8 14. Nbd2 {+11,47/4 0,1} e5 15. dxe5
+{+12,11/4 0,1} Rc5 16. exf6 {+12,77/4 0,1} g5 17. Nxg5 {+14,22/4 0,1} Nh4
+18. Qg4 {+17,39/4 0,1} Nf3+ 19. Ngxf3+ {+149,98/4 0,1} Kh8 20. Qg7#
+{+149,99/4 0,1}
+{Xboard adjudication: Checkmate} 1-0
+
+[Event "Computer Chess Game"]
+[Site "uso"]
+[Date "2021.05.26"]
+[Round "3"]
+[White "ChessQABM"]
+[Black "pulsar2009-9b-64"]
+[Result "1-0"]
+[TimeControl "300+2"]
+[Variant "3check"]
+[Annotator "1... -0,14"]
+
+1. e3 e5 {-0,14/4 0,1} 2. Qh5 Nc6 {+0,34/4 0,1} 3. Qxf7+ Kxf7 {+3,14/4 0,1}
+4. Bc4+ Ke7 {-149,99/4 0,1} 5. Nc3 Ke8 {-150,00/3 0,1} 6. Bf7+
+{Xboard adjudication: 3rd check} 1-0
+
+[Event "Computer Chess Game"]
+[Site "uso"]
+[Date "2021.05.26"]
+[Round "4"]
+[White "pulsar2009-9b-64"]
+[Black "ChessQABM"]
+[Result "1-0"]
+[TimeControl "300+2"]
+[Variant "3check"]
+[Annotator "1. +0,02"]
+
+1. e4 {+0,02/4} e6 2. Nc3 {+0,22/4 0,1} Qg5 3. d4 {+0,72/4 0,1} Qe3+ 4.
+Bxe3 {+8,24/4 0,1} Bb4 5. Qd2 {+8,12/4 0,1} Nf6 6. Bd3 {+8,08/4 0,1} Nc6 7.
+e5 {+8,16/4 0,1} Nd5 8. Nf3 {+8,23/4 0,1} f5 9. exf6 {+8,57/4 0,1} gxf6 10.
+O-O {+8,55/4 0,1} Rg8 11. Nxd5 {+9,30/4 0,1} Rxg2+ 12. Kxg2 {+10,37/4 0,1}
+Bd6 13. Nxf6+ {+17,32/4 0,1} Kf7 14. Bg6+ {+149,99/4 0,1} Kg7 15. Bh6+
+{+149,99/4 0,1}
+{Xboard adjudication: 3rd check} 1-0
+
+[Event "Computer Chess Game"]
+[Site "uso"]
+[Date "2021.05.26"]
+[Round "1"]
+[White "ChessQABM"]
+[Black "pulsar2009-9b-64"]
+[Result "*"]
+[TimeControl "300+2"]
+[Variant "3check"]
+[Annotator "1... -0,24"]
+
+1. Nc3 e5 {-0,24/4 0,1} 2. Nd5 Bc5 {+0,18/4 0,1} 3. e3 c6 {+0,15/4 0,1} 4.
+Qg4 cxd5 {+2,33/4 0,1} 5. Qxg7 Qf6 {+2,33/4 0,1} 6. Qxf6 Nxf6 {+2,37/4 0,1}
+7. b4 Bxb4 {+3,31/4 0,1} 8. c3 Bd6 {+3,35/4 0,1} 9. Ba6 Nxa6 {+6,91/4 0,1}
+{xboard exit (Clocks: 186, 317)} *
+
+[Event "Computer Chess Game"]
+[Site "uso"]
+[Date "2021.05.26"]
+[Round "1"]
+[White "ChessQABM"]
+[Black "pulsar2009-9b-64"]
+[Result "1-0"]
+[TimeControl "300+2"]
+[Variant "3check"]
+
+1. e3 e5 {-0,14/2 0,1} 2. Qh5 Nc6 {+0,10/2 0,1} 3. Qxf7+ Kxf7 {+3,70/2 0,1}
+4. Bc4+ Kf6 {+2,80/2 0,1} 5. Nc3 Bc5 {-150,00/2 0,1} 6. Ne4+
+{Xboard adjudication: 3rd check} 1-0
+
+[Event "Computer Chess Game"]
+[Site "uso"]
+[Date "2021.05.26"]
+[Round "2"]
+[White "pulsar2009-9b-64"]
+[Black "ChessQABM"]
+[Result "1-0"]
+[TimeControl "300+2"]
+[Variant "3check"]
+[Annotator "1. +0,02"]
+
+1. e4 {+0,02/4} e6 2. Nc3 {+0,10/2 0,1} Qg5 3. d4 {+0,72/2 0,1} Qe3+ 4.
+Bxe3 {+8,40/2 0,1} Bb4 5. Qd2 {+8,24/2 0,1} Nf6 6. e5 {+8,12/2 0,1} Ne4 7.
+Qd3 {+4,78/2 0,1} Bxc3+ 8. bxc3 {+4,75/2 0,1} Nc6 9. Qxe4 {+7,73/2 0,1} Ne7
+10. Bg5 {+8,09/2 0,1} Ng8 11. Rb1 {+8,61/2 0,1} c6 12. Nf3 {+8,78/2 0,1} h6
+13. Qh4 {+8,71/2 0,1} h5 14. g4 {+9,01/2 0,1} g6 15. Bd3 {+8,91/2 0,1} Rh7
+16. O-O {+9,09/2 0,1} Rg7 17. gxh5 {+9,84/2 0,1} gxh5 18. Kh1 {+9,69/2 0,1}
+Rb8 19. Rg1 {+10,03/2 0,1} b6 20. Qxh5 {+9,92/2 0,1} Nh6 21. Qxh6
+{+13,19/2 0,1} Rg8 22. Qf6 {+14,45/2 0,1} Rb7 23. Qd8# {+149,99/2 0,1}
+{Xboard adjudication: Checkmate} 1-0
+
+[Event "Computer Chess Game"]
+[Site "uso"]
+[Date "2021.05.26"]
+[Round "3"]
+[White "ChessQABM"]
+[Black "pulsar2009-9b-64"]
+[Result "1-0"]
+[TimeControl "300+2"]
+[Variant "3check"]
+
+1. e3 e5 {-0,14/2 0,1} 2. Qh5 Nc6 {+0,10/2 0,1} 3. Qxf7+ Kxf7 {+3,70/2 0,1}
+4. Bc4+ Kf6 {+2,80/2 0,1} 5. Nc3 Bc5 {-150,00/2 0,1} 6. Ne4+
+{Xboard adjudication: 3rd check} 1-0
+
+[Event "Computer Chess Game"]
+[Site "uso"]
+[Date "2021.05.26"]
+[Round "4"]
+[White "pulsar2009-9b-64"]
+[Black "ChessQABM"]
+[Result "1-0"]
+[TimeControl "300+2"]
+[Variant "3check"]
+[Annotator "1. +0,02"]
+
+1. e3 {+0,02/4} e6 2. Nc3 {+0,24/1 0,1} Qg5 3. Nf3 {+0,48/2 0,1} Qxe3+ 4.
+dxe3 {+6,96/2 0,1} Bb4 5. Bd2 {+6,92/2 0,1} Nc6 6. e4 {+6,94/2 0,1} Nf6 7.
+e5 {+6,82/2 0,1} Ng8 8. Bd3 {+7,20/2 0,1} a6 9. O-O {+7,52/2 0,1} Bc5 10.
+Be3 {+7,48/2 0,1} Be7 11. Qe2 {+7,47/2 0,1} h5 12. Rfd1 {+7,58/2 0,1} Nb4
+13. a3 {+7,83/2 0,1} Nc6 14. b4 {+7,64/2 0,1} h4 15. Qf1 {+7,62/2 0,1} Rh5
+16. Bf4 {+7,44/2 0,1} b6 17. Ra2 {+7,41/2 0,1} Bb7 18. Rb2 {+7,33/2 0,1} a5
+19. Nb5 {+7,57/2 0,1} Kd8 20. bxa5 {+7,58/2 0,1} d5 21. exd6 {+10,31/2 0,1}
+cxd6 22. Bxd6 {+10,31/2 0,1}
+{White wins on time} 1-0
+
+[Event "Computer Chess Game"]
+[Site "uso"]
+[Date "2021.05.26"]
+[Round "1"]
+[White "ChessQABM"]
+[Black "pulsar2009-9b-64"]
+[Result "1-0"]
+[TimeControl "300+2"]
+[Variant "3check"]
+[Annotator "1... +0,10"]
+
+1. e3 e5 {+0,10/3 0,1} 2. Qh5 Nc6 {+0,34/3 0,1} 3. Qxf7+ Kxf7 {+2,80/3 0,1}
+4. Bc4+ Ke7 {+3,14/3 0,1} 5. Nc3 Ke8 {-150,00/3 0,1} 6. Bf7+
+{Xboard adjudication: 3rd check} 1-0
+
+[Event "Computer Chess Game"]
+[Site "uso"]
+[Date "2021.05.26"]
+[Round "2"]
+[White "pulsar2009-9b-64"]
+[Black "ChessQABM"]
+[Result "1-0"]
+[TimeControl "300+2"]
+[Variant "3check"]
+[Annotator "1. +0,02"]
+
+1. e4 {+0,02/4} e6 2. Nc3 {+0,48/3 0,1} Qg5 3. d4 {+0,96/3 0,1} Qe3+ 4.
+Bxe3 {+8,52/3 0,1} Bb4 5. Qd2 {+8,39/3 0,1} Nf6 6. Bd3 {+8,30/3 0,1} Nc6 7.
+O-O-O {+8,28/3 0,1} Na5 8. Kb1 {+8,35/3 0,1} Nc6 9. Nf3 {+8,29/3 0,1} Ng4
+10. e5 {+8,59/3 0,1} d6 11. exd6 {+8,63/3 0,1} Bd7 12. dxc7 {+11,20/3 0,1}
+f5 13. h3 {+11,43/3 0,1} Nf6 14. a3 {+11,32/3 0,1} Ba5 15. c8=Q+
+{+11,05/3 0,1} Rxc8 16. b4 {+10,74/3 0,1} Bb6 17. g4 {+10,81/3 0,1} Ne7 18.
+gxf5 {+11,03/3 0,1} Kf8 19. fxe6 {+12,02/3 0,1}
+{White wins on time} 1-0
+
+[Event "Computer Chess Game"]
+[Site "uso"]
+[Date "2021.05.26"]
+[Round "3"]
+[White "ChessQABM"]
+[Black "pulsar2009-9b-64"]
+[Result "1-0"]
+[TimeControl "300+2"]
+[Variant "3check"]
+[Annotator "1... +0,10"]
+
+1. e3 e5 {+0,10/3 0,1} 2. Qh5 Nc6 {+0,34/3 0,1} 3. Qxf7+ Kxf7 {+2,80/3 0,1}
+4. Bc4+ Ke7 {+3,14/3 0,1} 5. Nc3 Ke8 {-150,00/3 0,1} 6. Bf7+
+{Xboard adjudication: 3rd check} 1-0
+
+[Event "Computer Chess Game"]
+[Site "uso"]
+[Date "2021.05.26"]
+[Round "4"]
+[White "pulsar2009-9b-64"]
+[Black "ChessQABM"]
+[Result "1-0"]
+[TimeControl "300+2"]
+[Variant "3check"]
+[Annotator "1. +0,02"]
+
+1. e4 {+0,02/4} e6 2. Nc3 {+0,48/3 0,1} Qg5 3. d4 {+0,96/3 0,1} Qe3+ 4.
+Bxe3 {+8,52/3 0,1} Bb4 5. Qd2 {+8,39/3 0,1} Nf6 6. Bd3 {+8,30/3 0,1} Nc6 7.
+O-O-O {+8,28/3 0,1} Na5 8. Kb1 {+8,35/3 0,1} Nc6 9. Nf3 {+8,29/3 0,2} Ng4
+10. e5 {+8,59/3 0,1} d6 11. exd6 {+8,63/3 0,1} Bd7 12. dxc7 {+11,20/3 0,1}
+f5 13. h3 {+11,43/3 0,1} Nf6 14. a3 {+11,32/3 0,1} Ba5 15. c8=Q+
+{+11,05/3 0,1} Rxc8 16. b4 {+10,74/3 0,1} Bb6 17. g4 {+10,81/3 0,1} Ne7 18.
+gxf5 {+11,03/3 0,1} Kf8 19. fxe6 {+12,02/3 0,1}
+{White wins on time} 1-0
+
+[Event "Computer Chess Game"]
+[Site "uso"]
+[Date "2021.05.26"]
+[Round "1"]
+[White "ChessQABM"]
+[Black "pulsar2009-9b-64"]
+[Result "1-0"]
+[TimeControl "300+2"]
+[Variant "3check"]
+[Annotator "1... +0,10"]
+
+1. e3 e5 {+0,10/3 0,1} 2. Qh5 Nc6 {+0,34/3 0,1} 3. Qxf7+ Kxf7 {+2,80/3 0,1}
+4. Bc4+ Ke7 {+3,14/3 0,1} 5. Nc3 Ke8 {-150,00/3 0,1} 6. Bf7+
+{Xboard adjudication: 3rd check} 1-0
+
+[Event "Computer Chess Game"]
+[Site "uso"]
+[Date "2021.05.26"]
+[Round "2"]
+[White "pulsar2009-9b-64"]
+[Black "ChessQABM"]
+[Result "1-0"]
+[TimeControl "300+2"]
+[Variant "3check"]
+[Annotator "1. +0,02"]
+
+1. c3 {+0,02/4} e6 2. d4 {+0,09/3 0,1} Qh4 3. Nf3 {+0,51/3 0,1} Qxf2+ 4.
+Kxf2 {+6,60/3 0,1} Be7 5. Kg1 {+6,68/3 0,1} b6 6. Bf4 {+6,99/3 0,1} Bb7 7.
+Bxc7 {+7,62/3 0,1} Bf6 8. e3 {+7,94/3 0,1} Ne7 9. Bb5 {+7,90/3 0,1} O-O 10.
+Bxb8 {+8,33/3 0,1} Nf5 11. Bf4 {+10,64/3 0,1} Rfc8 12. Bxd7 {+11,38/3 0,1}
+Rd8 13. Bb5 {+11,51/3 0,1} Rac8 14. Nbd2 {+11,58/3 0,1} e5 15. dxe5
+{+12,27/3 0,1} Rc5 16. exf6 {+12,92/3 0,1} g5 17. Nxg5 {+14,20/3 0,1} Nh4
+18. Qg4 {+17,41/3 0,1} Nf3+ 19. Ngxf3+ {+27,94/3 0,1} Kh8 20. Qg7#
+{+149,99/3 0,1}
+{Xboard adjudication: Checkmate} 1-0
+
+[Event "Computer Chess Game"]
+[Site "uso"]
+[Date "2021.05.26"]
+[Round "3"]
+[White "ChessQABM"]
+[Black "pulsar2009-9b-64"]
+[Result "1-0"]
+[TimeControl "300+2"]
+[Variant "3check"]
+[Annotator "1... +0,10"]
+
+1. e3 e5 {+0,10/3 0,1} 2. Qh5 Nc6 {+0,34/3 0,1} 3. Qxf7+ Kxf7 {+2,80/3 0,1}
+4. Bc4+ Ke7 {+3,14/3 0,1} 5. Nc3 Ke8 {-150,00/3 0,1} 6. Bf7+
+{Xboard adjudication: 3rd check} 1-0
+
+[Event "Computer Chess Game"]
+[Site "uso"]
+[Date "2021.05.26"]
+[Round "4"]
+[White "pulsar2009-9b-64"]
+[Black "ChessQABM"]
+[Result "1-0"]
+[TimeControl "300+2"]
+[Variant "3check"]
+[Annotator "1. +0,02"]
+
+1. e4 {+0,02/4} e6 2. Nc3 {+0,48/3 0,1} Qg5 3. d4 {+0,96/3 0,1} Qe3+ 4.
+Bxe3 {+8,52/3 0,1} Bb4 5. Qd2 {+8,39/3 0,1} Nf6 6. Bd3 {+8,30/3 0,1} Nc6 7.
+O-O-O {+8,28/3 0,1} Na5 8. Kb1 {+8,35/3 0,1} Nc6 9. Nf3 {+8,29/3 0,1} Ng4
+10. e5 {+8,59/3 0,1} d6 11. exd6 {+8,63/3 0,2} Bd7 12. dxc7 {+11,20/3 0,1}
+f5 13. h3 {+11,43/3 0,1} Nf6 14. a3 {+11,32/3 0,1} Ba5 15. c8=Q+
+{+11,05/3 0,1} Rxc8 16. b4 {+10,74/3 0,1} Bb6 17. g4 {+10,81/3 0,1} Ne7 18.
+gxf5 {+11,03/3 0,1} Kf8 19. fxe6 {+12,02/3 0,1}
+{White wins on time} 1-0
+
+[Event "Computer Chess Game"]
+[Site "uso"]
+[Date "2021.06.02"]
+[Round "-"]
+[White "student"]
+[Black "ChessQABM"]
+[Result "0-1"]
+[TimeControl "300+2"]
+[Variant "3check"]
+
+1. d4 e6 2. e3 Bb4+ 3. Ke2 Qg5 4. Qd3 Qg4+ 5. f3 Qxf3+
+{Xboard adjudication: 3rd check} 0-1
+
+[Event "Computer Chess Game"]
+[Site "uso"]
+[Date "2021.06.02"]
+[Round "1"]
+[White "ChessQABM"]
+[Black "pulsar2009-9b-64"]
+[Result "1-0"]
+[TimeControl "300+2"]
+[Variant "3check"]
+[Annotator "1... +0,10"]
+
+1. e3 e5 {+0,10/3 0,1} 2. Qh5 Nc6 {+0,34/3 0,1} 3. Qxf7+ Kxf7 {+2,80/3 0,1}
+4. Bc4+ Ke7 {+3,14/3 0,1} 5. Nc3 Ke8 {-150,00/3 0,1} 6. Bf7+
+{Xboard adjudication: 3rd check} 1-0
+
+[Event "Computer Chess Game"]
+[Site "uso"]
+[Date "2021.06.02"]
+[Round "2"]
+[White "pulsar2009-9b-64"]
+[Black "ChessQABM"]
+[Result "1-0"]
+[TimeControl "300+2"]
+[Variant "3check"]
+[Annotator "1. +0,02"]
+
+1. d4 {+0,02/4} e6 2. Nc3 {+0,33/3 0,1} Bb4 3. Bd2 {+0,29/3 0,1} Qg5 4.
+Bxg5 {+7,90/3 0,1} Bxc3+ 5. bxc3 {+8,21/3 0,1} Nc6 6. Bf4 {+8,27/3 0,1} Nf6
+7. Rb1 {+7,95/3 0,1} Ne4 8. Qd3 {+8,27/3 0,1} Nf6 9. Bxc7 {+9,06/3 0,1} Nd5
+10. Bd6 {+9,33/3 0,1} b6 11. e4 {+9,63/3 0,1} Nf6 12. Nf3 {+9,63/3 0,1} Bb7
+13. Qe3 {+9,63/3 0,1} h6 14. Bd3 {+9,78/3 0,1} Ng4 15. Qf4 {+10,02/3 0,1}
+f5 16. exf5 {+11,27/3 0,1} Nxd4 17. cxd4 {+13,10/3 0,1} Nxf2 18. Kxf2
+{+15,32/3 0,1} Rc8 19. fxe6 {+17,93/3 0,1} Rxc2+ 20. Bxc2 {+20,70/3 0,1}
+Kd8 21. Ne5 {+22,68/3 0,1} dxe6 22. Qf7 {+25,60/3 0,1} Ba6 23. Qd7#
+{+149,99/3 0,1}
+{Xboard adjudication: Checkmate} 1-0
+
+[Event "Computer Chess Game"]
+[Site "uso"]
+[Date "2021.06.02"]
+[Round "3"]
+[White "ChessQABM"]
+[Black "pulsar2009-9b-64"]
+[Result "1-0"]
+[TimeControl "300+2"]
+[Variant "3check"]
+[Annotator "1... +0,10"]
+
+1. e3 e5 {+0,10/3 0,1} 2. Qh5 Nc6 {+0,34/3 0,1} 3. Qxf7+ Kxf7 {+2,80/3 0,1}
+4. Bc4+ Ke7 {+3,14/3 0,1} 5. Nc3 Ke8 {-150,00/3 0,1} 6. Bf7+
+{Xboard adjudication: 3rd check} 1-0
+
+[Event "Computer Chess Game"]
+[Site "uso"]
+[Date "2021.06.02"]
+[Round "4"]
+[White "pulsar2009-9b-64"]
+[Black "ChessQABM"]
+[Result "1-0"]
+[TimeControl "300+2"]
+[Variant "3check"]
+[Annotator "1. +0,02"]
+
+1. Nc3 {+0,02/4} d5 2. e4 {+1,46/3 0,1} Qd7 3. Nxd5 {+1,96/3 0,1} Kd8 4. d4
+{+2,25/3 0,1} Qc6 5. Bf4 {+4,48/3 0,1} Qc3+ 6. bxc3 {+12,53/3 0,1} c6 7.
+Bc7+ {+14,25/3 0,1} Kd7 8. Qg4+ {+149,99/3 0,1} e6 9. Qxe6+ {+149,99/3 0,1}
+{Xboard adjudication: 3rd check} 1-0
+
+[Event "Computer Chess Game"]
+[Site "uso"]
+[Date "2021.06.02"]
+[Round "-"]
+[White "student"]
+[Black "ChessQABM"]
+[Result "0-1"]
+[TimeControl "300+2"]
+[Variant "3check"]
+
+1. d4 e6 2. Bd2 Qg5 3. Bxg5 Bb4+ 4. Qd2 Bxd2+ 5. Kxd2 Nc6 6. Kd3 Nb4+
+{Xboard adjudication: 3rd check} 0-1
+
+[Event "Computer Chess Game"]
+[Site "uso"]
+[Date "2021.06.02"]
+[Round "1"]
+[White "ChessQABM"]
+[Black "ChessQABM"]
+[Result "*"]
+[TimeControl "300+2"]
+[Variant "3check"]
+
+1. Nc3 e6 2. Nb5 Ke7 3. d4 f6 4. Qd2 Nc6 5. Nxa7 Rxa7 6. Qa5 Rxa5 7. Bd2
+Ke8 8. e3 Rxa2 9. Rxa2 Nb4 10. Kd1 Nxa2 11. Ke1 Bb4 12. Bxb4 Nxb4 13. Kd2
+g5 14. c3 Ke7
+{xboard exit (Clocks: 219, 232)} *
+
+[Event "Computer Chess Game"]
+[Site "uso"]
+[Date "2021.06.02"]
+[Round "1"]
+[White "ChessQABM"]
+[Black "pulsar2009-9b-64"]
+[Result "*"]
+[TimeControl "300+2"]
+[Variant "3check"]
+[Annotator "2... +0,47"]
+
+1. Nc3 e5 {-0,24/2 0,1} 2. Nd5 c6 {+0,47/3 0,1} 3. e3 cxd5 {+3,26/3 0,1} 4.
+Qh5 Nc6 {+3,50/3 0,1} 5. Qxf7+ Kxf7 {+9,80/3 0,1} 6. Bc4 dxc4
+{+12,91/3 0,1} 7. Nf3 Ke8 {+12,97/3 0,1} 8. g4 d5 {+13,38/3 0,1}
+{xboard exit (Clocks: 249, 315)} *
+
+[Event "Computer Chess Game"]
+[Site "uso"]
+[Date "2021.06.02"]
+[Round "-"]
+[White "student"]
+[Black "ChessQABM"]
+[Result "0-1"]
+[TimeControl "300+2"]
+[Variant "3check"]
+
+1. d4 e6 2. e3 Bb4+ 3. Nc3 Bxc3+ 4. bxc3 Qg5 5. Qe2 Nc6 6. Qc4 Qxe3+
+{Xboard adjudication: 3rd check} 0-1
+
+[Event "Computer Chess Game"]
+[Site "uso"]
+[Date "2021.06.02"]
+[Round "-"]
+[White "student"]
+[Black "ChessQABM"]
+[Result "*"]
+[TimeControl "300+2"]
+[Variant "3check"]
+
+1. c4 e6 2. Nc3 Qg5 3. e3 Qxe3+ 4. dxe3 Bb4 5. Bd2 Nc6
+{xboard exit (Clocks: 91, 304)} *
+
+[Event "Computer Chess Game"]
+[Site "uso"]
+[Date "2021.06.02"]
+[Round "-"]
+[White "student"]
+[Black "ChessQABM"]
+[Result "0-1"]
+[TimeControl "300+2"]
+[Variant "3check"]
+
+1. d4 e6 2. Bd2 Qg5 3. Bxg5 Bb4+ 4. Nc3 Bxc3+ 5. bxc3 Nc6 6. Qd3 g6 7. Nf3
+a5 8. Rb1 b6 9. Rb5 Ba6 10. c4 Rb8 11. Re5 Nb4 12. Qc3 Nd3+
+{Xboard adjudication: 3rd check} 0-1
+
+[Event "Computer Chess Game"]
+[Site "uso"]
+[Date "2021.06.02"]
+[Round "-"]
+[White "student"]
+[Black "ChessQABM"]
+[Result "*"]
+[TimeControl "300+2"]
+[Variant "3check"]
+
+1. d4 e6 2. Bd2 Qg5 3. e3 Qxe3+ 4. fxe3 Bd6 5. Na3 Bg3+ 6. Ke2 Nc6 7. Bb4
+b6
+{xboard exit (Clocks: 257, 309)} *
+
+[Event "Computer Chess Game"]
+[Site "uso"]
+[Date "2021.06.02"]
+[Round "1"]
+[White "ChessQABM"]
+[Black "pulsar2009-9b-64"]
+[Result "1-0"]
+[TimeControl "300+2"]
+[Variant "3check"]
+[Annotator "1... +0,10"]
+
+1. e3 e5 {+0,10/3 0,1} 2. Qh5 Nc6 {+0,34/3 0,1} 3. Qxf7+ Kxf7 {+2,80/3 0,1}
+4. Bc4+ Ke7 {+3,14/3 0,1} 5. Nc3 Ke8 {-150,00/3 0,1} 6. Bf7+
+{Xboard adjudication: 3rd check} 1-0
+
+[Event "Computer Chess Game"]
+[Site "uso"]
+[Date "2021.06.02"]
+[Round "2"]
+[White "pulsar2009-9b-64"]
+[Black "ChessQABM"]
+[Result "1-0"]
+[TimeControl "300+2"]
+[Variant "3check"]
+[Annotator "1. +0,02"]
+
+1. d4 {+0,02/4} e6 2. Nc3 {+0,33/3 0,1} Bb4 3. Bd2 {+0,29/3 0,1} Qg5 4.
+Bxg5 {+7,90/3 0,1} Bxc3+ 5. bxc3 {+8,21/3 0,1} Nc6 6. Bf4 {+8,27/3 0,1} Nf6
+7. Rb1 {+7,95/3 0,1} Ne4 8. Qd3 {+8,27/3 0,1} Nf6 9. Bxc7 {+9,06/3 0,1} Nd5
+10. Bd6 {+9,33/3 0,1} b6 11. e4 {+9,63/3 0,1} Nf6 12. Nf3 {+9,63/3 0,1} Bb7
+13. Qe3 {+9,63/3 0,1} h6 14. Bd3 {+9,78/3 0,1} Ng4 15. Qf4 {+10,02/3 0,1}
+f5 16. exf5 {+11,27/3 0,1} Nxd4 17. cxd4 {+13,10/3 0,1} Nxf2 18. Kxf2
+{+15,32/3 0,1} Rc8 19. fxe6 {+17,93/3 0,1} Rxc2+ 20. Bxc2 {+20,70/3 0,1}
+Kd8 21. Ne5 {+22,68/3 0,1} dxe6 22. Qf7 {+25,60/3 0,1} Ba6 23. Qd7#
+{+149,99/3 0,1}
+{Xboard adjudication: Checkmate} 1-0
+
+[Event "Computer Chess Game"]
+[Site "uso"]
+[Date "2021.06.02"]
+[Round "3"]
+[White "ChessQABM"]
+[Black "pulsar2009-9b-64"]
+[Result "1-0"]
+[TimeControl "300+2"]
+[Variant "3check"]
+[Annotator "1... +0,10"]
+
+1. e3 e5 {+0,10/3 0,1} 2. Qh5 Nc6 {+0,34/3 0,1} 3. Qxf7+ Kxf7 {+2,80/3 0,1}
+4. Bc4+ Ke7 {+3,14/3 0,1} 5. Nc3 Ke8 {-150,00/3 0,1} 6. Bf7+
+{Xboard adjudication: 3rd check} 1-0
+
+[Event "Computer Chess Game"]
+[Site "uso"]
+[Date "2021.06.02"]
+[Round "4"]
+[White "pulsar2009-9b-64"]
+[Black "ChessQABM"]
+[Result "1-0"]
+[TimeControl "300+2"]
+[Variant "3check"]
+[Annotator "1. +0,02"]
+
+1. d4 {+0,02/4} e6 2. Nc3 {+0,33/3 0,1} Bb4 3. Bd2 {+0,29/3 0,1} Qg5 4.
+Bxg5 {+7,90/3 0,1} Bxc3+ 5. bxc3 {+8,21/3 0,1} Nc6 6. Bf4 {+8,27/3 0,1} Nf6
+7. Rb1 {+7,95/3 0,1} Ne4 8. Qd3 {+8,27/3 0,1} Nf6 9. Bxc7 {+9,06/3 0,1} Nd5
+10. Bd6 {+9,33/3 0,1} b6 11. e4 {+9,63/3 0,1} Nf6 12. Nf3 {+9,63/3 0,1} Bb7
+13. Qe3 {+9,63/3 0,1} h6 14. Bd3 {+9,78/3 0,1} Ng4 15. Qf4 {+10,02/3 0,1}
+f5 16. exf5 {+11,27/3 0,1} Nxd4 17. cxd4 {+13,10/3 0,1} Nxf2 18. Kxf2
+{+15,32/3 0,1} Rc8 19. fxe6 {+17,93/3 0,1} Rxc2+ 20. Bxc2 {+20,70/3 0,1}
+Kd8 21. Ne5 {+22,68/3 0,1} dxe6 22. Qf7 {+25,60/3 0,1} Ba6 23. Qd7#
+{+149,99/3 0,1}
+{Xboard adjudication: Checkmate} 1-0
+
+[Event "Computer Chess Game"]
+[Site "uso"]
+[Date "2021.06.02"]
+[Round "1"]
+[White "ChessQABM"]
+[Black "pulsar2009-9b-64"]
+[Result "1-0"]
+[TimeControl "300+2"]
+[Variant "3check"]
+[Annotator "1... -0,14"]
+
+1. e3 e5 {-0,14/4 0,1} 2. Qh5 Nc6 {+0,34/4 0,1} 3. Qxf7+ Kxf7 {+3,14/4 0,1}
+4. Bc4+ Ke7 {-149,99/4 0,1} 5. Nc3 Ke8 {-150,00/3 0,1} 6. Bf7+
+{Xboard adjudication: 3rd check} 1-0
+
+[Event "Computer Chess Game"]
+[Site "uso"]
+[Date "2021.06.02"]
+[Round "2"]
+[White "pulsar2009-9b-64"]
+[Black "ChessQABM"]
+[Result "1-0"]
+[TimeControl "300+2"]
+[Variant "3check"]
+[Annotator "1. +0,02"]
+
+1. Nc3 {+0,02/4} d5 2. e4 {+1,08/4 0,1} Qd7 3. Nxd5 {+1,58/4 0,1} Kd8 4. d4
+{+2,16/4 0,1} Qc6 5. Bf4 {+4,77/4 0,1} Qc3+ 6. bxc3 {+12,67/4 0,1} c6 7.
+Bc7+ {+14,25/4 0,1} Kd7 8. Qg4+ {+149,99/4 0,1} e6 9. Qxe6+ {+149,99/4 0,1}
+{Xboard adjudication: 3rd check} 1-0
+
+[Event "Computer Chess Game"]
+[Site "uso"]
+[Date "2021.06.02"]
+[Round "3"]
+[White "ChessQABM"]
+[Black "pulsar2009-9b-64"]
+[Result "1-0"]
+[TimeControl "300+2"]
+[Variant "3check"]
+[Annotator "1... -0,14"]
+
+1. e3 e5 {-0,14/4 0,1} 2. Qh5 Nc6 {+0,34/4 0,1} 3. Qxf7+ Kxf7 {+3,14/4 0,1}
+4. Bc4+ Ke7 {-149,99/4 0,1} 5. Nc3 Ke8 {-150,00/3 0,1} 6. Bf7+
+{Xboard adjudication: 3rd check} 1-0
+
+[Event "Computer Chess Game"]
+[Site "uso"]
+[Date "2021.06.02"]
+[Round "4"]
+[White "pulsar2009-9b-64"]
+[Black "ChessQABM"]
+[Result "1-0"]
+[TimeControl "300+2"]
+[Variant "3check"]
+[Annotator "1. +0,02"]
+
+1. c3 {+0,02/4} e6 2. d4 {-0,15/4 0,1} Qh4 3. Nf3 {+0,35/4 0,1} Qxf2+ 4.
+Kxf2 {+6,36/4 0,1} Be7 5. Kg1 {+6,50/4 0,1} b6 6. Bf4 {+6,80/4 0,1} Bb7 7.
+Bxc7 {+7,30/4 0,1} Bf6 8. e3 {+7,66/4 0,1} Ne7 9. Bb5 {+7,58/4 0,1} O-O 10.
+Bxb8 {+8,17/4 0,1} Nf5 11. Bf4 {+10,48/4 0,1} Rfc8 12. Bxd7 {+11,34/4 0,1}
+Rd8 13. Bb5 {+11,32/4 0,1} Rac8 14. Nbd2 {+11,47/4 0,1} e5 15. dxe5
+{+12,11/4 0,1} Rc5 16. exf6 {+12,77/4 0,1} g5 17. Nxg5 {+14,22/4 0,1} Nh4
+18. Qg4 {+17,39/4 0,1} Nf3+ 19. Ngxf3+ {+149,98/4 0,1} Kh8 20. Qg7#
+{+149,99/4 0,1}
+{Xboard adjudication: Checkmate} 1-0
+
